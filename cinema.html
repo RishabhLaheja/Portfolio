@@ -1,0 +1,438 @@
+<!-- comments act as headings-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="jquery-3.2.1.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+     <!--<script src="currentmovie.js"></script> -->
+
+   <style>
+     .head{
+        background-color:#AD0000;
+        color:white;
+        font-style:italic;
+        opacity:0.9;
+      }
+
+      .headimg{
+            width:100%;
+            height:600px;
+            background-image:url(imax6.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+       }
+    .headtext{
+    font-size:40px;
+    font-style:italic;
+    color:white;
+    text-align:center;
+    text-shadow:black;
+    padding:300px;
+    opacity:0.8;
+    }
+    .outerblock{
+    width:100%;
+    height:500px;
+    background-color:black;
+   }
+   .innertextblock{
+    width:50%;
+    height:500px;
+    color:white;
+    font-size:30px;
+    text-align:center;
+    float:left;
+    background-color:red;
+    display:inline-block;
+   }
+   .blockimg{
+    width:50%;
+    height:500px;
+    float:right;
+    display:inline-block;
+   }
+   .innertextblock_reversed{
+    width:50%;
+    height:500px;
+    color:white;
+    font-size:30px;
+    text-align:center;
+    float:right;
+    background-color:red;
+    display:inline-block;
+   }
+   .blockimg_reversed{
+    width:50%;
+    height:500px;
+    float:left;
+    display:inline-block;
+   }
+   .fullimg{
+    width:100%;
+   }
+
+   .currentmovie{
+    width:100%;
+    height:1070px;
+    background-color:white;
+   }
+   .wwleft{
+    width:48.5%;
+    height:475px;
+    float:left;
+    display:inline-block;
+    background-color:#E1E1E1;
+    margin:10px 10px 10px 10px;
+    opacity:0.8;
+   }
+
+   .wwleft:hover{
+      opacity:1;
+   }
+
+   .wwimg{
+    width:100%;
+    height:410px;
+    background-color:black;
+   }
+
+   .wwtext{
+    text-align:center;
+    font-size:25px;
+    color:black;
+    padding:10px;
+   }
+
+   .thorright{
+    width:48.5%;
+    height:475px;
+    float:right;
+    display:inline-block;
+    background-color:#E1E1E1;
+    margin:10px 10px 10px 10px;
+    opacity:0.8;
+   }
+
+   .thorright:hover{
+    opacity:1;
+   }
+
+   .thorimg{
+    width:100%;
+    height:410px;
+    background-color:black;
+   }
+
+    .thortext{
+    text-align:center;
+    font-size:25px;
+    color:black;
+    padding:10px;
+   }
+
+
+
+   .jlleft{
+    width:48.5%;
+    height:475px;
+    float:left;
+    display:inline-block;
+    background-color:#E1E1E1;
+    margin:10px 10px 10px 10px;
+    opacity:0.8;
+   }
+
+   .jlleft:hover{
+    opacity:1;
+   }
+
+   .jlimg{
+    width:100%;
+    height:410px;
+    background-color:black;
+   }
+
+   .jltext{
+    text-align:center;
+    font-size:25px;
+    color:black;
+    padding:10px;
+   }
+
+
+   .swright{
+    width:48.5%;
+    height:475px;
+    float:right;
+    display:inline-block;
+    background-color:#E1E1E1;
+    margin:10px 10px 10px 10px;
+    opacity:0.8;
+   }
+
+   .swright:hover{
+      opacity:1;
+   }
+
+   .swimg{
+    width:100%;
+    height:410px;
+    background-color:black;
+   }
+
+    .swtext{
+    text-align:center;
+    font-size:25px;
+    color:black;
+    padding:10px;
+   }
+
+
+    .contactus{
+      background-image:url("texture4.jpg");
+      background-size:cover;
+      width:100%;
+      height:600px;
+      font-size:25px;
+      color:white;
+    }
+    .contactustext{
+      float:left;
+      display:inline-block;
+      color:white;
+      font-size:25px;
+      text-align:left;
+      margin-left:30px;
+    }
+      .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 60px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+          border-radius: 40%;
+          margin-left:10px;
+        }
+
+              
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+
+        .fa-google {
+          background: #dd4b39;
+          color: white;
+        }
+
+        .fa-linkedin {
+          background: #007bb5;
+          color: white;
+        }
+
+        .fa-youtube {
+          background: #bb0000;
+          color: white;
+        }
+
+        .fa-instagram {
+          background: #125688;
+          color: white;
+        }
+   </style>
+  </head>
+  <body>
+    <!--navigation bar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:black;">
+  <div class="container-fluid">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="cinema.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Movies<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="ww.html">Wonder Woman</a></li>
+        <li><a href="thor3.html">Thor Ragnarok</a></li>
+        <li><a href="jl.html">Justice League</a></li>
+        <li><a href="starwars.html">Star Wars</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Filter<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">IMAX 3D</a></li>
+        <li><a href="#">3D</a></li>
+      </ul>
+      </li>
+      <li><a href="#">Trailers</a></li>
+      <li><a href="#">Offers</a></li>
+      </ul>
+    </ul>
+  <!--search option-->
+     <form class="navbar-form navbar-right" style="margin-right:10px;">
+  <div class="input-group"></div>
+        </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="cinemasignup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="cinemalogin.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--jumbotron-->
+ <div class="head jumbotron text-center"><br>
+      <h1><b>BlockBuster3D<b></h1>
+      <blockquote>
+        "Experience cinema like never before!!"
+      </blockquote>
+    </div>  
+
+
+<!--carousel--><div style="background-color: black;height:630px;width: 100%;margin-top:-30px;">
+    <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">  
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+       <a href="ww.html">
+        <img src="ww.jpg" alt="Wonder Woman" style="width:100%; height:630px;"></a>
+          <div class="carousel-caption">
+            <h3>Wonder Woman</h3>
+          </div>
+      </div>
+      <div class="item">
+      <a href="thor3.html">
+        <img src="thor3.jpg" alt="Thor Ragnarok" style="width:100%; height:630px;"></a>
+          <div class="carousel-caption">
+            <h3>Thor Ragnarok</h3>
+          </div>
+      </div>
+      <div class="item">
+       <a href="jl.html">
+        <img src="jl2.jpg" alt="Justice League" style="width:100%; height:630px;"></a>
+          <div class="carousel-caption">
+            <h3>Justice League</h3>
+          </div>
+        </div>
+      <div class="item">
+       <a href="starwars.html">
+        <img src="sw2.jpg" alt="Star Wars" style="width:100%; height:630px;"></a>
+          <div class="carousel-caption">
+            <h3>Star Wars : The Last Jedi</h3>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="headimg">
+    <p class="headtext">Feel the real 3D!!!<br>Enjoy Every Film with the Best<br> Sound & Picture Quality</p>
+    </div>
+
+<div class="outerblock">
+    <div class="innertextblock" style="background-color:#AD0000;"><br><br><br>
+      <p><i>"Now make every weekend Special!!<br>Get upto 20% off on online bookings for Weekend Shows!!<br> & 30% off on food combos!!<br> HURRY!! BOOK NOW!!!"</i></p><br>
+      </div>
+      <img class="blockimg" src="cinema.jpg">
+  </div>
+
+
+  <div class="currentmovie">
+  <p style="font-size:35px;color:black;text-align:center;"><i>Currently running movies are :<i></p>
+    <div class="wwleft">
+      <div class="wwimg">
+        <a href="ww.html">
+          <img src="ww4.jpg" style="width:100%;height:100%;">
+        </a>
+      </div>
+      <div class="wwtext" id="#ww">Wonder Woman</div>
+    </div>
+    <div class="thorright">
+        <div class="thorimg">
+          <a href="thor3.html">
+          <img src="thor3.3.png" style="width:100%;height:100%;">
+          </a>
+        </div>
+      <div class="thortext">Thor Ragnarok</div>
+    </div>
+    <div class="jlleft">
+      <div class="jlimg">
+        <a href="jl.html">
+          <img src="jl8.jpg" style="width:100%;height:100%;">
+        </a>
+      </div>
+      <div class="jltext">Justice League</div>
+    </div>
+    <div class="swright">
+      <div class="swimg">
+        <a href="starwars.html">
+          <img src="sw6.jpg" style="width:100%;height:100%;">
+        </a>
+      </div>
+      <div class="swtext">Star Wars</div>
+    </div>
+  </div>
+
+
+
+
+   <div class="outerblock">
+    <div class="innertextblock_reversed" style="background-color:#00928B ;"><br><br><br>
+      <p>Experience Movie Like Never Before<br> With IMAX!!!<br>Now don't just watch a movie,<br> LIVE IN IT!!</p>
+      </div>
+      <img class="blockimg_reversed" src="imax2.jpg">
+  </div>
+
+   <div class="fullimg">
+    <iframe style="width: 100%; height:700px;" src="https://www.youtube.com/embed/rQOA-24VWvI" frameborder="0" allowfullscreen></iframe>
+  </div>
+    <div class="outerblock" style="height:400px;margin-top:-10px;">
+    <div class="innertextblock" style="height:400px;background-color:#000447  ;"><br><br>
+      <p>Surround yourself with Dolby Atmos<br> & immerse yourself into the breathtaking reality!!<br>Don't just hear,<br>FEEL EVERY DIMENSION!!</p>
+      </div>
+      <img class="blockimg" src="da.jpg" style="height:400px;">
+  </div>
+     <div class="fullimg">
+    <iframe style="width: 100%; height:700px;"   src="https://www.youtube.com/embed/LNpr2lI38kk" frameborder="0" allowfullscreen></iframe>
+  </div>
+   <div class="contactus" style="margin-top:-10px;">
+    <p style="font-size:65px;color:white;text-align:center;"><b><i>Contact Us</i></b></p>
+    <br><br>
+    <p class="contactustext"><b>Our Address is :<b><br>1,Rajhans Apt,<br>Sunder Nagar,Road-3,<br>Kalina,Santacurz(East),<br>Mumbai-400098.</p>
+    <p class="contactustext" style="margin-left:130px;"><b>Contact Us on :<b><br>Rishabh Laheja - (+91) 9867837607<br>Yash Limbachaya - (+91) 7738071969<br></p>
+    <p style="margin-right:50px;float:right;display:inline-block;">Follow & Connect With Us on :<b><br>
+       <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a><br>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </p>
+  </div>
+  <?php 
+      $_SESSION['userid'] = "rish";
+  ?>
+</body>
+</html>
+
